@@ -1,0 +1,15 @@
+# Install aws Cli
+# Install the AWS CLI Using the Bundled Installer (Linux, OS X, or Unix)
+# Prerequisites
+# 1. Linux, OS X, or Unix
+# 2. Python 2 version 2.6.5+ or Python 3 version 3.3+
+
+# On Debian derivatives such as Ubuntu, use APT:
+$ apt-get install python2.7
+
+# Check your Python installation:
+$ python --version
+
+# To install pip on Linux
+$ curl -O https://bootstrap.pypa.io/get-pip.py
+
