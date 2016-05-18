@@ -13,4 +13,6 @@ $ python --version
 # To install pip on Linux
 $ curl -O https://bootstrap.pypa.io/get-pip.py
 
-
+apt-get update
+apt-get install -qy python-pip groff-base
+pip install awscli
