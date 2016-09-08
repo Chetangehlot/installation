@@ -12,3 +12,7 @@ sudo apt-get install -y oracle-java8-installer
 
 vim /etc/bash.bashrc 
 export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+
+
+
+chetan
