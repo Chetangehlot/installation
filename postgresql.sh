@@ -5,9 +5,9 @@ apt-get -y install vim wget
 #Postgresql install and run
 echo "deb http://apt.postgresql.org/pub/repos/apt/ trusty-pgdg main" | tee /etc/apt/sources.list.d/pgdg.list
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
-apt-get update
-apt-get install postgresql-9.4 postgresql-contrib-9.4
-apt-get install -y postgresql-9.4-postgis-2.1
+sudo apt-get update
+sudo apt-get install postgresql-9.4 postgresql-contrib-9.4
+sudo apt-get install -y postgresql-9.4-postgis-2.1
 echo "host all  all    0.0.0.0/0  md5" >> /etc/postgresql/9.4/main/pg_hba.conf
 echo "listen_addresses='*'" >> /etc/postgresql/9.4/main/postgresql.conf
 /etc/init.d/postgresql start
