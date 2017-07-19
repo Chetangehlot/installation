@@ -1,0 +1,20 @@
+#Install MySQL on Ubuntu 14.04
+
+sudo apt-get update
+sudo apt-get upgrade
+
+#Install MySQL
+
+sudo apt-get install mysql-server
+
+sudo mysql_secure_installation
+
+mysql -u root -p
+
+
+
+#Reset the MySQL Root Password
+
+sudo service mysql stop
+sudo dpkg-reconfigure mysql-server-5.5
+sudo service mysql start
